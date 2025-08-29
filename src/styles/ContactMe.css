@@ -1,0 +1,155 @@
+#ContactMe {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+#ContactMe .titles {
+    padding-top: 5rem;
+    background: linear-gradient(#107169 0%, #2bd8c4 80%, #0063bf 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.sendMessage {
+    display: flex;
+    width: 30rem;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #0a5266;
+    background: linear-gradient(135deg, rgb(21, 13, 66, 0.4), rgb(19, 81, 108, 0.4));
+}
+
+.sendMessage h2 {
+    font-weight: 400;
+}
+
+.sendMessage input {
+    padding: 0.5rem;
+    width: 100%;
+    background-color: rgb(65, 87, 91, 0.2);
+    outline: none;
+    border: 1px solid #0a5266;
+    border-radius: 5px;
+}
+
+.sendMessage textarea {
+    padding: 0.5rem;
+    width: 100%;
+    background-color: rgb(65, 87, 91, 0.2);
+    outline: none;
+    border: 1px solid #0a5266;
+    border-radius: 5px;
+    resize: none;
+    min-height: 10rem;
+}
+
+.sendInfo {
+    background: linear-gradient(90deg, rgba(23, 111, 143, 0.8), rgba(66, 191, 245, 0.8));
+    padding: 0.5em;
+    border: 1px solid #0a5266;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    opacity: 0.8;
+}
+
+.sendInfo:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.socialInfo {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    max-height: fit-content;
+    gap: 2rem;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    border: 1px solid #0a5266;
+    background: linear-gradient(135deg, rgb(21, 13, 66, 0.4), rgb(19, 81, 108, 0.4));
+}
+
+.socialInfo h2 {
+    font-weight: 400;
+}
+
+.social {
+    display: flex;
+    font-weight: 100;
+    align-items: center;
+    text-align: start;
+
+    & p {
+        font-size: 0.9rem;
+    }
+
+    & img {
+        margin-right: 1rem;
+        width: 40px;
+        height: 40px;
+        transition: filter 0.3s ease;
+    }
+}
+
+.social img:hover {
+    filter: brightness(1.5);
+}
+
+@media (max-width: 1100px) {
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .sendMessage {
+        width: 25rem;
+    }
+
+    .socialInfo {
+        width: 25rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .contact {
+        & h2 {
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+        }
+    }
+
+    .sendMessage {
+        width: 75dvw;
+    }
+
+    .socialInfo {
+        width: 75dvw;
+        padding: 1rem 1.5rem;
+    }
+
+    .social {
+        display: inline-block;
+        text-align: center;
+        border-radius: 10px;
+        backdrop-filter: blur(10px);
+        background: linear-gradient(135deg, rgb(21, 13, 66, 0.2), rgb(19, 81, 108, 0.2));
+
+        & img {
+            margin-right: 0;
+        }
+    }
+}

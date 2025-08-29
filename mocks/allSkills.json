@@ -1,0 +1,63 @@
+{
+    "Skills": [
+        {
+            "Logo": "./src/assets/Skills/React.svg",
+            "Title": "React",
+            "Description": "React.js for frontend development and building dynamic user interfaces."
+        },
+
+        {
+            "Logo": "./src/assets/Skills/Tailwind.svg",
+            "Title": "Tailwind",
+            "Description": "Tailwind CSS for creating responsive and modern UI designs with utility-first classes."
+        },
+
+        {
+            "Logo": "./src/assets/Skills/JavaScript.svg",
+            "Title": "JavaScript",
+            "Description": "JavaScript for adding interactivity, logic, and dynamic functionality to web applications."
+        },
+
+        {
+            "Logo": "./src/assets/Skills/Python.svg",
+            "Title": "Python",
+            "Description": "Python for scripting, automation, and backend development with clean and versatile syntax."
+        },
+
+        {
+            "Logo": "./src/assets/Skills/SQL.svg",
+            "Title": "SQL",
+            "Description": "SQL for querying, managing, and manipulating structured data in relational databases."
+        },
+
+        {
+            "Logo": "./src/assets/Skills/PgSQL.svg",
+            "Title": "PostgreSQL",
+            "Description": "PostgreSQL for managing relational databases and ensuring secure, structured data storage."
+        },
+
+        {
+            "Logo": "./src/assets/Skills/Html.svg",
+            "Title": "HTML",
+            "Description": "HTML for structuring content and building the foundation of web applications."
+        },
+
+        {
+            "Logo": "./src/assets/Skills/Css.svg",
+            "Title": "CSS",
+            "Description": "CSS for styling, layout design, and creating visually appealing user experiences."
+        },
+
+        {
+            "Logo": "./src/assets/Skills/NPM.svg",
+            "Title": "NPM",
+            "Description": "NPM for managing project dependencies, scripts, and JavaScript packages efficiently."
+        },
+
+        {
+            "Logo": "./src/assets/Skills/Git.svg",
+            "Title": "Git",
+            "Description": "Git for version control, collaboration, and managing project history across teams."
+        }
+    ]
+}

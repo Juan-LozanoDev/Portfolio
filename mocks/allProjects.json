@@ -1,0 +1,243 @@
+{
+    "Projects": [
+        {
+            "id": "Cocktail-Page",
+            "Image": "../src/assets/Projects/Cocktail-page.jpg",
+            "Title": "Cocktail Page",
+            "Description": "A web application built with React that allows users to explore different cocktails using the Cocktail DB API. Users can search for drinks, view details, and navigate between different pages of the app.",
+            "Url": "https://juan-lozanodev.github.io/Cocktail-page/",
+            "Technologies": [
+                {
+                    "Technology": "HTML",
+                    "Icon": "../src/assets/Skills/Html.svg"
+                },
+                {
+                    "Technology": "CSS",
+                    "Icon": "../src/assets/Skills/Css.svg"
+                },
+                {
+                    "Technology": "JavaScript",
+                    "Icon": "../src/assets/Skills/JavaScript.svg"
+                },
+                {
+                    "Technology": "React",
+                    "Icon": "../src/assets/Skills/React.svg"
+                }
+            ],
+            "Github": "https://github.com/Juan-LozanoDev/Cocktail-react",
+            "Features": [
+                "Cocktail search: search cocktails by name or category in real time.",
+                "Dynamic listing: fetch and display results from TheCocktailDB API.",
+                "Detailed cocktail view: ingredients, instructions, and drink images.",
+                "Navigation: multi-page navigation with React Router (Home, Details, About, ErrorPage).",
+                "Global state management: Context API for sharing data across components.",
+                "Responsive design: modular and mobile-friendly UI."
+            ]
+        },
+
+        {
+            "id": "Hazard-report-form",
+            "Image": "../src/assets/Projects/Hazard-report-form.jpg",
+            "Title": "Hazard Report Form",
+            "Description": "A web form built with vanilla JavaScript that allows users to report hazards, attach evidence, and submit the data directly to Google Sheets. Any uploaded files are automatically stored in Google Drive for secure tracking and storage.",
+            "Url": "https://juan-lozanodev.github.io/Formulario/",
+            "Technologies": [
+                {
+                    "Technology": "HTML",
+                    "Icon": "../src/assets/Skills/Html.svg"
+                },
+                {
+                    "Technology": "CSS",
+                    "Icon": "../src/assets/Skills/Css.svg"
+                },
+                {
+                    "Technology": "JavaScript",
+                    "Icon": "../src/assets/Skills/JavaScript.svg"
+                },
+                {
+                    "Technology": "Google Scripts",
+                    "Icon": "../src/assets/Skills/google-scripts.png"
+                }
+            ],
+            "Github": "https://github.com/Juan-LozanoDev/Formulario",
+            "Features": [
+                "File upload support: uploaded files are stored directly in Google Drive.",
+                "Google Sheets integration: form data is saved in real time via Google Apps Script.",
+                "Confidential mode: hides and disables the reporter's name field when confidentiality is selected.",
+                "Automatic timestamp: submission date is added automatically.",
+                "User feedback: success, error, and loading messages for better UX.",
+                "Reset/Cancel option: restores default values and clears messages."
+            ]
+        },
+
+        {
+            "id": "Metas-app",
+            "Image": "../src/assets/Projects/Metas app.jpg",
+            "Title": "Metas App",
+            "Description": "A simple and intuitive application designed to help users set, track, and achieve their personal or professional goals. The app allows you to define goals, and monitor progress over time, providing motivation and organization in your daily routine. This project was developed as a practice exercise during the Academia X Full Stack Development course.",
+            "Url": "https://juan-lozanodev.github.io/Metas-App/list",
+            "Technologies": [
+                {
+                    "Technology": "HTML",
+                    "Icon": "../src/assets/Skills/Html.svg"
+                },
+                {
+                    "Technology": "CSS",
+                    "Icon": "../src/assets/Skills/Css.svg"
+                },
+                {
+                    "Technology": "JavaScript",
+                    "Icon": "../src/assets/Skills/JavaScript.svg"
+                },
+                {
+                    "Technology": "React",
+                    "Icon": "../src/assets/Skills/React.svg"
+                },
+                {
+                    "Technology": "Tailwind",
+                    "Icon": "../src/assets/Skills/Tailwind.svg"
+                }
+            ],
+            "Github": "https://github.com/Juan-LozanoDev/Metas-App",
+            "Features": [
+                "Goal Creation: Users can create new goals by setting name, frequency, deadline, target completion count, and progress count.",
+                "Goal Management: Edit or delete existing goals easily.",
+                "Progress Tracking: Monitor how many times each goal has been completed compared to the target.",
+                "Data Persistence: Goals are stored in LocalStorage for now",
+                "Routing & Navigation: Implemented with React Router (Routes, Outlet, useNavigate, useParams).",
+                "State Management: Handled with React Hooks (useState, useEffect, useReducer, useContext)."
+            ]
+        },
+
+        {
+            "id": "List-with-cart",
+            "Image": "../src/assets/Projects/List with cart.jpg",
+            "Title": "List with Cart",
+            "Description": "A simple e-commerce product selection page where users can browse a list of products, add items to the cart, and review their selection before confirming the purchase. The cart state updates in real-time, and a confirmation modal displays the selected products upon checkout.",
+            "Url": "https://juan-lozanodev.github.io/List-with-cart-main/",
+            "Technologies": [
+                {
+                    "Technology": "HTML",
+                    "Icon": "../src/assets/Skills/Html.svg"
+                },
+                {
+                    "Technology": "CSS",
+                    "Icon": "../src/assets/Skills/Css.svg"
+                },
+                {
+                    "Technology": "JavaScript",
+                    "Icon": "../src/assets/Skills/JavaScript.svg"
+                }
+            ],
+            "Github": "https://github.com/Juan-LozanoDev/List-with-cart-main",
+            "Features": [
+                "Dynamic Cart System: Add, update, or remove products in real-time.",
+                "Quantity Controls: Increase or decrease product quantities directly from the product card or cart.",
+                "Auto Price Calculation: Subtotal, total order price, and total product count update instantly.",
+                "Product Removal: Delete individual products from the cart with a single click.",
+                "Order Confirmation Modal: Displays selected products with image, quantity, and pricing before checkout.",
+                "New Order Reset: Clear the cart and start fresh with one action.",
+                "Keyboard Support: Close and reset the order using the ESC key.",
+                "Responsive Design: Fully functional on desktop, tablet, and mobile devices."
+            ]
+        },
+
+        {
+            "id": "Tier-List",
+            "Image": "../src/assets/Projects/Tier-list.jpg",
+            "Title": "Tier List",
+            "Description": "This project is a web application that allows users to create a custom Tier List using HTML, CSS, and JavaScript. It includes drag & drop functionality and image upload from the user's device through the FileReader API.",
+            "Url": "https://juan-lozanodev.github.io/Tier-List/",
+            "Technologies": [
+                {
+                    "Technology": "HTML",
+                    "Icon": "../src/assets/Skills/Html.svg"
+                },
+                {
+                    "Technology": "CSS",
+                    "Icon": "../src/assets/Skills/Css.svg"
+                },
+                {
+                    "Technology": "JavaScript",
+                    "Icon": "../src/assets/Skills/JavaScript.svg"
+                }
+            ],
+            "Github": "https://github.com/Juan-LozanoDev/Tier-List",
+            "Features": [
+                "Drag & Drop Support: Move items smoothly between different tier levels.",
+                "Custom Image Upload: Add personalized images using the FileReader API.",
+                "Responsive Design: Works seamlessly on desktop and mobile devices.",
+                "Native JavaScript Events: Uses dragstart, dragover, dragleave, drop, and dragend.",
+                "No External Frameworks: Fully built with HTML, CSS, and Vanilla JavaScript."
+            ]
+        },
+
+        {
+            "id": "Tic-Tac-Toe",
+            "Image": "../src/assets/Projects/Tic Tac Toe.jpg",
+            "Title": "Tic Tac Toe",
+            "Description": "A classic Tic Tac Toe game built for practicing logical thinking and improving coding skills. The game allows two players to compete in a simple, clean interface, keeping track of the turns and detecting the winner automatically.",
+            "Url": "https://juan-lozanodev.github.io/Tres-en-linea/",
+            "Technologies": [
+                {
+                    "Technology": "HTML",
+                    "Icon": "../src/assets/Skills/Html.svg"
+                },
+                {
+                    "Technology": "CSS",
+                    "Icon": "../src/assets/Skills/Css.svg"
+                },
+                {
+                    "Technology": "JavaScript",
+                    "Icon": "../src/assets/Skills/JavaScript.svg"
+                },
+                {
+                    "Technology": "React",
+                    "Icon": "../src/assets/Skills/React.svg"
+                }
+            ],
+            "Github": "https://github.com/Juan-LozanoDev/Tres-en-linea",
+            "Features": [
+                "Classic Tic Tac Toe game: two players take alternating turns.",
+                "Automatic turn switching: dynamically detects whether it's “X” or “O”'s turn.",
+                "Winner detection: identifies winning combinations across rows, columns, and diagonals.",
+                "Move history tracking: records every move, allowing players to review past states.",
+                "Time travel feature: jump back to the start or any previous move.",
+                "Clean and minimal UI: simple board layout with clear cell buttons.",
+                "Built with React: state management using useState and modular components.",
+                "Responsive design: adapts to mobile screens with proper styling."
+            ]
+        },
+
+        {
+            "id": "Weather-app",
+            "Image": "../src/assets/Projects/Weather-App.jpg",
+            "Title": "Weather App",
+            "Description": "A simple web application built with JavaScript, HTML, and CSS that allows users to check the current weather and upcoming forecast for any city, using the OpenWeatherMap API.",
+            "Url": "https://juan-lozanodev.github.io/Weather-app/",
+            "Technologies": [
+                {
+                    "Technology": "HTML",
+                    "Icon": "../src/assets/Skills/Html.svg"
+                },
+                {
+                    "Technology": "CSS",
+                    "Icon": "../src/assets/Skills/Css.svg"
+                },
+                {
+                    "Technology": "JavaScript",
+                    "Icon": "../src/assets/Skills/JavaScript.svg"
+                }
+            ],
+            "Github": "https://github.com/Juan-LozanoDev/Weather-app",
+            "Features": [
+                "City Search: Users can search for any city using the search bar or by pressing Enter.",
+                "Real-time Weather Data: Fetches live weather information from the OpenWeather API (temperature, humidity, wind speed, and conditions).",
+                "Dynamic Weather Icons: Displays the correct weather icon based on the condition ID (clear, rain, snow, storm, etc.).",
+                "Date Handling: Shows the current date dynamically in a clean format (weekday, day, and month).",
+                "Error Handling: Displays a Not Found screen when the city doesn't exist or the API request fails.",
+                "5-Day Forecast: Retrieves forecast data for upcoming days at 12:00 PM each day (excluding today) and shows temperature + weather icons."
+            ]
+        }
+    ]
+}

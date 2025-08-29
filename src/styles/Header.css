@@ -1,0 +1,250 @@
+header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    animation: header-animation 1s ease-in-out;
+}
+
+@keyframes header-animation {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 5rem;
+    height: auto;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #0a5266;
+    border-radius: 30px;
+    padding: 0.8rem 2rem;
+    background: rgba(206, 206, 206, 0.1);
+    backdrop-filter: blur(10px);
+
+    & ul {
+        display: flex;
+        gap: 2rem;
+    }
+
+    & a {
+        font-size: 1.2rem;
+    }
+
+    & a:hover {
+        color: #e7e7e7;
+        transition: color ease 0.3s;
+    }
+
+    & .contact-hamburguer {
+        display: none;
+    }
+}
+
+.active {
+    position: relative;
+}
+
+.desactive {
+    position: relative;
+}
+
+.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -75%;
+    background-color: #14b0db;
+    width: 100%;
+    height: 0.25em;
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0px 15px 20px #14b0db;
+    animation: appear 0.4s ease-in-out;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        clip-path: inset(100% 0 0 0);
+    }
+    to {
+        opacity: 1;
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+.contactButton {
+    padding: 0.8rem 2rem;
+    border: 1px solid #0a5266;
+    background: rgba(206, 206, 206, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    font-size: 1.2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.contactButton::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: translateX(-150%);
+    background: linear-gradient(90deg, rgba(23, 111, 143, 0.7), rgba(66, 191, 245, 0.7));
+    position: absolute;
+    z-index: -1;
+    transition: all 0.5s ease-in-out;
+}
+
+.contactButton:hover {
+    cursor: pointer;
+
+    &::before {
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 1000px) {
+    .navbar {
+        padding: 0.5rem 1rem;
+
+        & a {
+            font-size: 1rem;
+        }
+    }
+
+    .active::after {
+        left: 5%;
+        width: 90%;
+    }
+
+    .contactButton {
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .logo img {
+        width: 4rem;
+        height: auto;
+    }
+
+    .navbar {
+        position: fixed;
+        left: 60%;
+        right: 0px;
+        bottom: 0px;
+        top: 0px;
+        padding-block: calc(2rem + 70px);
+        transform: translateX(0%);
+        border-radius: 10px;
+        border: none;
+        clip-path: inset(0px 0px 0px 350px);
+        display: none;
+        transition: all 0.3s ease, display .3s ease allow-discrete;
+        overflow: hidden;
+
+        & ul {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        & .contact-hamburguer {
+            display: block;
+        }
+    }
+
+    .navbar.open {
+        display: block;
+        clip-path: inset(0px 0px 0px 0px);
+        transition: all 0.3s ease;
+
+        @starting-style {
+            clip-path: inset(0px 0px 0px 350px);
+        }
+    }
+
+    .active {
+        color: #14b0db;
+    }
+
+    .active::after {
+        display: none;
+    }
+
+    .hamburger {
+        position: fixed;
+        right: 2rem;
+        width: 50px;
+        height: 60px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 99999;
+    }
+
+    .hamburger::before {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 30px;
+        background: #14b0db;
+        transform: translateY(-8px);
+        transition: 0.5s ease-in-out;
+    }
+
+    .hamburger::after {
+        content: "";
+        position: absolute;
+        height: 2px;
+        width: 30px;
+        background: #14b0db;
+        transform: translateY(8px);
+        box-shadow: 0 -8px 0 #14b0db;
+        transition: 0.5s ease-in-out;
+    }
+
+    .hamburger.open::before {
+        transform: translateY(0px) rotate(45deg);
+    }
+
+    .hamburger.open::after {
+        transform: translateY(0px) rotate(-45deg);
+        box-shadow: none;
+    }
+
+    .contactButton {
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .navbar {
+        left: 50%;
+    }
+}

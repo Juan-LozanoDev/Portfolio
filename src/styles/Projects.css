@@ -1,0 +1,171 @@
+#Projects {
+    min-height: 100dvh;
+    padding-top: 6.5rem;
+}
+
+.selection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    border: 1px solid #0a5266;
+    border-radius: 1rem;
+    background: linear-gradient(135deg, rgba(19, 81, 108, 0.4), rgba(21, 13, 66, 0.4), rgba(19, 81, 108, 0.4));
+    margin-bottom: 1.5em;
+}
+
+.projects,
+.qualifications {
+    width: 50%;
+    text-align: center;
+    padding: 0.75rem;
+    position: relative;
+}
+
+.projects :hover,
+.qualifications :hover {
+    cursor: pointer;
+}
+
+.selected {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 0.5rem;
+    background: linear-gradient(90deg, rgba(25, 111, 148, 0.3), rgba(68, 191, 253, 0.3), rgba(25, 111, 148, 0.3));
+    transform: translateX(0);
+    transition: all ease 1s;
+
+    @starting-style {
+        transform: translateX(calc(100% * var(--i)));
+    }
+}
+
+.not-selected {
+    transform: translateX(100% * var(--i));
+    display: none;
+    transition: all ease 1s, display 1s ease allow-discrete;
+}
+
+.listOfQualifications,
+.listOfProjects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 2dvw;
+}
+
+.qualification {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #0a5266;
+    padding: 1em;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgb(21, 13, 66, 0.4), rgb(19, 81, 108, 0.4));
+
+    & img {
+        width: 100%;
+        margin-bottom: 1.5em;
+        aspect-ratio: 3 / 2;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    & h3 {
+        text-align: center;
+    }
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #0a5266;
+    padding: 1em;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgb(21, 13, 66, 0.4), rgb(19, 81, 108, 0.4));
+
+    & img {
+        width: 100%;
+        aspect-ratio: 5 / 3;
+        object-fit: cover;
+        object-position: center;
+        margin-bottom: 1.5em;
+    }
+
+    & h3 {
+        color: #0cb0d4;
+        text-align: start;
+    }
+}
+
+.project-description p {
+    opacity: 0.7;
+    text-align: start;
+    margin-block: 1em;
+}
+
+.more-information {
+    display: flex;
+    bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+
+    & .live-demo {
+        color: #23caf0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    & .share-icon {
+        width: 35px;
+        height: 35px;
+        margin: 0;
+    }
+
+    & .details {
+        padding: 0.25rem 0.5rem;
+        background: linear-gradient(90deg, rgba(23, 111, 143, 0.7), rgba(66, 191, 245, 0.7));
+        border-radius: 10px;
+        border: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .selection {
+        padding: 0.5rem 1rem;
+    }
+
+    .projects, .qualifications {
+        & h2 {
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+        }
+    }
+
+    .listOfQualifications,
+    .listOfProjects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+        gap: 2dvw;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .selection {
+        padding: 0.5rem 0.5rem;
+    }
+
+    .projects, .qualifications {
+
+        padding: 0.5rem;
+
+        & h2 {
+            font-size: 1.1rem;
+            line-height: 1.1rem;
+        }
+    }
+}
