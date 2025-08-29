@@ -1,4 +1,3 @@
-import allQualifications from "../../mocks/allQualifications.json";
 import { useGlobalContext } from "../services/Context";
 
 function QualificationsList() {

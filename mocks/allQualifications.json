@@ -2,92 +2,92 @@
     "Qualifications": [
 
         {
-            "Image" : "./src/assets/Qualifications/Clase Maestra SQL.jpg",
+            "Image" : "/Portfolio/Qualifications/Clase Maestra SQL.jpg",
             "Title" : "Clase Maestra SQL"
         },
 
         {
-            "Image" : "./src/assets/Qualifications/IBM AI Developer.jpg",
+            "Image" : "/Portfolio/Qualifications/IBM AI Developer.jpg",
             "Title" : "IBM AI Developer"
         },
 
         {
-            "Image" : "./src/assets/Qualifications/Clase Maestra React.jpg",
+            "Image" : "/Portfolio/Qualifications/Clase Maestra React.jpg",
             "Title" : "Clase Maestra React"
         },
 
         {
-            "Image" : "./src/assets/Qualifications/Developing AI Applications with Python and Flask.jpg",
+            "Image" : "/Portfolio/Qualifications/Developing AI Applications with Python and Flask.jpg",
             "Title" : "Developing AI Applications with Python and Flask"
         },
         
         {
-            "Image" : "./src/assets/Qualifications/Building Generative AI with Python.jpg",
+            "Image" : "/Portfolio/Qualifications/Building Generative AI with Python.jpg",
             "Title" : "Building Generative AI with Python"
         },
 
         {
-            "Image" : "./src/assets/Qualifications/Python for Data Science, AI and Development.jpg",
+            "Image" : "/Portfolio/Qualifications/Python for Data Science, AI and Development.jpg",
             "Title" : "Python for Data Science, AI and Development"
         },
 
         {
-            "Image" : "./src/assets/Qualifications/Introduction to HTML, CSS, JavaScript.jpg",
+            "Image" : "/Portfolio/Qualifications/Introduction to HTML, CSS, JavaScript.jpg",
             "Title" : "Introduction to HTML, CSS, JavaScript"
         },
 
         {
-            "Image" : "./src/assets/Qualifications/Herramientas Frontend.jpg",
+            "Image" : "/Portfolio/Qualifications/Herramientas Frontend.jpg",
             "Title" : "Herramientas Frontend"
         },
 
         {
-            "Image" : "./src/assets/Qualifications/Clase Maestra DOM.jpg",
+            "Image" : "/Portfolio/Qualifications/Clase Maestra DOM.jpg",
             "Title" : "Clase Maestra DOM"
         },
 
         {
-            "Image" : "./src/assets/Qualifications/Clase Maestra JavaScript.jpg",
+            "Image" : "/Portfolio/Qualifications/Clase Maestra JavaScript.jpg",
             "Title" : "Clase Maestra JavaScript"
         },
         
         {
-            "Image" : "./src/assets/Qualifications/Clase Maestra CSS.jpg",
+            "Image" : "/Portfolio/Qualifications/Clase Maestra CSS.jpg",
             "Title" : "Clase Maestra CSS"
         },
 
         {
-            "Image" : "./src/assets/Qualifications/Clase Maestra HTML.jpg",
+            "Image" : "/Portfolio/Qualifications/Clase Maestra HTML.jpg",
             "Title" : "Clase Maestra HTML"
         },
         
         {
-            "Image" : "./src/assets/Qualifications/Generative AI Elevate your Software Development Career.jpg",
+            "Image" : "/Portfolio/Qualifications/Generative AI Elevate your Software Development Career.jpg",
             "Title" : "Generative AI Elevate your Software Development Career"
         },
 
         {
-            "Image" : "./src/assets/Qualifications/Generative AI Introduction and Applications.jpg",
+            "Image" : "/Portfolio/Qualifications/Generative AI Introduction and Applications.jpg",
             "Title" : "Generative AI Introduction and Applications"
         },
 
         {
-            "Image" : "./src/assets/Qualifications/Generative AI Prompt Engineering Basics.jpg",
+            "Image" : "/Portfolio/Qualifications/Generative AI Prompt Engineering Basics.jpg",
             "Title" : "Generative AI Prompt Engineering Basics"
         },
         
         {
-            "Image" : "./src/assets/Qualifications/Introduction to Artificial Intelligence.jpg",
+            "Image" : "/Portfolio/Qualifications/Introduction to Artificial Intelligence.jpg",
             "Title" : "Introduction to Artificial Intelligence"
         },
 
         {
-            "Image" : "./src/assets/Qualifications/Introduction to Software Engineering.jpg",
+            "Image" : "/Portfolio/Qualifications/Introduction to Software Engineering.jpg",
             "Title" : "Introduction to Software Engineering"
         },
 
         {
-            "Image" : "./src/assets/Qualifications/Software Developer Career Guide and Interview Preparation.jpg",
+            "Image" : "/Portfolio/Qualifications/Software Developer Career Guide and Interview Preparation.jpg",
             "Title" : "Software Developer Career Guide and Interview Preparation"
         } 
     ]

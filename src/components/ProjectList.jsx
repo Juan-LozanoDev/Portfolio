@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ShareIcon from "../assets/Icons/Share-icon.svg";
+import ShareIcon from "../../public/Icons/Share-icon.svg";
 import { useGlobalContext } from "../services/Context";
 
 

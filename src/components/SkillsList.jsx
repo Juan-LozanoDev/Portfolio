@@ -1,4 +1,4 @@
-import allSkills from "../../mocks/allSkills.json";
+
 import { useGlobalContext } from "../services/Context";
 
 

@@ -1,8 +1,8 @@
 import { Link, useParams, useNavigate, useLocation } from "react-router-dom";
 import { useGlobalContext } from "../services/Context";
 import { useEffect, useLayoutEffect, useState } from "react";
-import ShareIcon from "../assets/Icons/Share-icon.svg";
-import GitHubIcon from "../assets/Social/github.png";
+import ShareIcon from "../../public/Icons/Share-icon.svg";
+import GitHubIcon from "../../public/Social/github.png";
 import "../styles/Project.css";
 
 function Project() {

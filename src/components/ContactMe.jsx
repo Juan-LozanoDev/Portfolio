@@ -1,7 +1,7 @@
 import '../styles/ContactMe.css'
-import Email from '../assets/Social/email-svgrepo-com.svg'
-import linkedIn from '../assets/Social/linkedin-161-svgrepo-com.svg'
-import gitHub from '../assets/Social/github-142-svgrepo-com.svg'
+import Email from '../../public/Social/email-svgrepo-com.svg'
+import linkedIn from '../../public/Social/linkedin-161-svgrepo-com.svg'
+import gitHub from '../../public/Social/github-142-svgrepo-com.svg'
 
 
 export default function ContactMe() {

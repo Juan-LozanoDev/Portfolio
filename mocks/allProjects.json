@@ -2,29 +2,29 @@
     "Projects": [
         {
             "id": "Cocktail-Page",
-            "Image": "../src/assets/Projects/Cocktail-page.jpg",
+            "Image": "/Portfolio/Projects/Cocktail-page.jpg",
             "Title": "Cocktail Page",
             "Description": "A web application built with React that allows users to explore different cocktails using the Cocktail DB API. Users can search for drinks, view details, and navigate between different pages of the app.",
             "Url": "https://juan-lozanodev.github.io/Cocktail-page/",
             "Technologies": [
                 {
                     "Technology": "HTML",
-                    "Icon": "../src/assets/Skills/Html.svg"
+                    "Icon": "/Portfolio/Skills/Html.svg"
                 },
                 {
                     "Technology": "CSS",
-                    "Icon": "../src/assets/Skills/Css.svg"
+                    "Icon": "/Portfolio/Skills/Css.svg"
                 },
                 {
                     "Technology": "JavaScript",
-                    "Icon": "../src/assets/Skills/JavaScript.svg"
+                    "Icon": "/Portfolio/Skills/JavaScript.svg"
                 },
                 {
                     "Technology": "React",
-                    "Icon": "../src/assets/Skills/React.svg"
+                    "Icon": "/Portfolio/Skills/React.svg"
                 }
             ],
-            "Github": "https://github.com/Juan-LozanoDev/Cocktail-react",
+            "Github": "https://github.com/Juan-LozanoDev/Cocktail-page",
             "Features": [
                 "Cocktail search: search cocktails by name or category in real time.",
                 "Dynamic listing: fetch and display results from TheCocktailDB API.",
@@ -37,26 +37,26 @@
 
         {
             "id": "Hazard-report-form",
-            "Image": "../src/assets/Projects/Hazard-report-form.jpg",
+            "Image": "/Portfolio/Projects/Hazard-report-form.jpg",
             "Title": "Hazard Report Form",
             "Description": "A web form built with vanilla JavaScript that allows users to report hazards, attach evidence, and submit the data directly to Google Sheets. Any uploaded files are automatically stored in Google Drive for secure tracking and storage.",
             "Url": "https://juan-lozanodev.github.io/Formulario/",
             "Technologies": [
                 {
                     "Technology": "HTML",
-                    "Icon": "../src/assets/Skills/Html.svg"
+                    "Icon": "/Portfolio/Skills/Html.svg"
                 },
                 {
                     "Technology": "CSS",
-                    "Icon": "../src/assets/Skills/Css.svg"
+                    "Icon": "/Portfolio/Skills/Css.svg"
                 },
                 {
                     "Technology": "JavaScript",
-                    "Icon": "../src/assets/Skills/JavaScript.svg"
+                    "Icon": "/Portfolio/Skills/JavaScript.svg"
                 },
                 {
                     "Technology": "Google Scripts",
-                    "Icon": "../src/assets/Skills/google-scripts.png"
+                    "Icon": "/Portfolio/Skills/google-scripts.png"
                 }
             ],
             "Github": "https://github.com/Juan-LozanoDev/Formulario",
@@ -72,30 +72,30 @@
 
         {
             "id": "Metas-app",
-            "Image": "../src/assets/Projects/Metas app.jpg",
+            "Image": "/Portfolio/Projects/Metas app.jpg",
             "Title": "Metas App",
             "Description": "A simple and intuitive application designed to help users set, track, and achieve their personal or professional goals. The app allows you to define goals, and monitor progress over time, providing motivation and organization in your daily routine. This project was developed as a practice exercise during the Academia X Full Stack Development course.",
-            "Url": "https://juan-lozanodev.github.io/Metas-App/list",
+            "Url": "https://juan-lozanodev.github.io/Metas-App",
             "Technologies": [
                 {
                     "Technology": "HTML",
-                    "Icon": "../src/assets/Skills/Html.svg"
+                    "Icon": "/Portfolio/Skills/Html.svg"
                 },
                 {
                     "Technology": "CSS",
-                    "Icon": "../src/assets/Skills/Css.svg"
+                    "Icon": "/Portfolio/Skills/Css.svg"
                 },
                 {
                     "Technology": "JavaScript",
-                    "Icon": "../src/assets/Skills/JavaScript.svg"
+                    "Icon": "/Portfolio/Skills/JavaScript.svg"
                 },
                 {
                     "Technology": "React",
-                    "Icon": "../src/assets/Skills/React.svg"
+                    "Icon": "/Portfolio/Skills/React.svg"
                 },
                 {
                     "Technology": "Tailwind",
-                    "Icon": "../src/assets/Skills/Tailwind.svg"
+                    "Icon": "/Portfolio/Skills/Tailwind.svg"
                 }
             ],
             "Github": "https://github.com/Juan-LozanoDev/Metas-App",
@@ -111,22 +111,22 @@
 
         {
             "id": "List-with-cart",
-            "Image": "../src/assets/Projects/List with cart.jpg",
+            "Image": "/Portfolio/Projects/List with cart.jpg",
             "Title": "List with Cart",
             "Description": "A simple e-commerce product selection page where users can browse a list of products, add items to the cart, and review their selection before confirming the purchase. The cart state updates in real-time, and a confirmation modal displays the selected products upon checkout.",
             "Url": "https://juan-lozanodev.github.io/List-with-cart-main/",
             "Technologies": [
                 {
                     "Technology": "HTML",
-                    "Icon": "../src/assets/Skills/Html.svg"
+                    "Icon": "/Portfolio/Skills/Html.svg"
                 },
                 {
                     "Technology": "CSS",
-                    "Icon": "../src/assets/Skills/Css.svg"
+                    "Icon": "/Portfolio/Skills/Css.svg"
                 },
                 {
                     "Technology": "JavaScript",
-                    "Icon": "../src/assets/Skills/JavaScript.svg"
+                    "Icon": "/Portfolio/Skills/JavaScript.svg"
                 }
             ],
             "Github": "https://github.com/Juan-LozanoDev/List-with-cart-main",
@@ -144,22 +144,22 @@
 
         {
             "id": "Tier-List",
-            "Image": "../src/assets/Projects/Tier-list.jpg",
+            "Image": "/Portfolio/Projects/Tier-list.jpg",
             "Title": "Tier List",
             "Description": "This project is a web application that allows users to create a custom Tier List using HTML, CSS, and JavaScript. It includes drag & drop functionality and image upload from the user's device through the FileReader API.",
             "Url": "https://juan-lozanodev.github.io/Tier-List/",
             "Technologies": [
                 {
                     "Technology": "HTML",
-                    "Icon": "../src/assets/Skills/Html.svg"
+                    "Icon": "/Portfolio/Skills/Html.svg"
                 },
                 {
                     "Technology": "CSS",
-                    "Icon": "../src/assets/Skills/Css.svg"
+                    "Icon": "/Portfolio/Skills/Css.svg"
                 },
                 {
                     "Technology": "JavaScript",
-                    "Icon": "../src/assets/Skills/JavaScript.svg"
+                    "Icon": "/Portfolio/Skills/JavaScript.svg"
                 }
             ],
             "Github": "https://github.com/Juan-LozanoDev/Tier-List",
@@ -174,26 +174,26 @@
 
         {
             "id": "Tic-Tac-Toe",
-            "Image": "../src/assets/Projects/Tic Tac Toe.jpg",
+            "Image": "/Portfolio/Projects/Tic Tac Toe.jpg",
             "Title": "Tic Tac Toe",
             "Description": "A classic Tic Tac Toe game built for practicing logical thinking and improving coding skills. The game allows two players to compete in a simple, clean interface, keeping track of the turns and detecting the winner automatically.",
             "Url": "https://juan-lozanodev.github.io/Tres-en-linea/",
             "Technologies": [
                 {
                     "Technology": "HTML",
-                    "Icon": "../src/assets/Skills/Html.svg"
+                    "Icon": "/Portfolio/Skills/Html.svg"
                 },
                 {
                     "Technology": "CSS",
-                    "Icon": "../src/assets/Skills/Css.svg"
+                    "Icon": "/Portfolio/Skills/Css.svg"
                 },
                 {
                     "Technology": "JavaScript",
-                    "Icon": "../src/assets/Skills/JavaScript.svg"
+                    "Icon": "/Portfolio/Skills/JavaScript.svg"
                 },
                 {
                     "Technology": "React",
-                    "Icon": "../src/assets/Skills/React.svg"
+                    "Icon": "/Portfolio/Skills/React.svg"
                 }
             ],
             "Github": "https://github.com/Juan-LozanoDev/Tres-en-linea",
@@ -211,22 +211,22 @@
 
         {
             "id": "Weather-app",
-            "Image": "../src/assets/Projects/Weather-App.jpg",
+            "Image": "/Portfolio/Projects/Weather-App.jpg",
             "Title": "Weather App",
             "Description": "A simple web application built with JavaScript, HTML, and CSS that allows users to check the current weather and upcoming forecast for any city, using the OpenWeatherMap API.",
             "Url": "https://juan-lozanodev.github.io/Weather-app/",
             "Technologies": [
                 {
                     "Technology": "HTML",
-                    "Icon": "../src/assets/Skills/Html.svg"
+                    "Icon": "/Portfolio/Skills/Html.svg"
                 },
                 {
                     "Technology": "CSS",
-                    "Icon": "../src/assets/Skills/Css.svg"
+                    "Icon": "/Portfolio/Skills/Css.svg"
                 },
                 {
                     "Technology": "JavaScript",
-                    "Icon": "../src/assets/Skills/JavaScript.svg"
+                    "Icon": "/Portfolio/Skills/JavaScript.svg"
                 }
             ],
             "Github": "https://github.com/Juan-LozanoDev/Weather-app",
