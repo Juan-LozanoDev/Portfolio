@@ -1,9 +1,28 @@
 {
     "Skills": [
+
+        {
+            "Logo": "/Portfolio/Skills/NodeJS.svg",
+            "Title": "Node JS",
+            "Description": "Node.js for server-side development and building scalable, high-performance applications."
+        },
+
+        {
+            "Logo": "/Portfolio/Skills/Express.svg",
+            "Title": "Express",
+            "Description": "Express.js for creating fast, efficient, and structured APIs using the Node.js runtime."
+        },
+
         {
             "Logo": "/Portfolio/Skills/React.svg",
             "Title": "React",
             "Description": "React.js for frontend development and building dynamic user interfaces."
+        },
+
+        {
+            "Logo": "/Portfolio/Skills/GSAP.svg",
+            "Title": "GSAP",
+            "Description": "GSAP for creating high-performance animations and smooth interactive motion in modern web interfaces."
         },
 
         {

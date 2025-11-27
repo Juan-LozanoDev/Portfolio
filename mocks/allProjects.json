@@ -1,6 +1,57 @@
 {
     "Projects": [
         {
+            "id": "AgillSAS-Page",
+            "Image": "/Portfolio/Projects/AgillSAS.jpg",
+            "Title": "AGILL SAS Page",
+            "Description": "A full-stack web application developed with React, GSAP, and TailwindCSS for the frontend, allowing users to navigate a dynamic and animated interface. The backend was built using Node.js, Express, and PostgreSQL, implementing secure authentication with JWT, password encryption with bcrypt, and various CRUD operations.",
+            "Url": "https://www.agillsas.com/",
+            "Technologies": [
+                {
+                    "Technology": "React",
+                    "Icon": "/Portfolio/Skills/React.svg"
+                },
+                {
+                    "Technology": "Gsap",
+                    "Icon": "/Portfolio/Skills/GSAP.svg"
+                },
+                {
+                    "Technology": "Tailwind",
+                    "Icon": "/Portfolio/Skills/Tailwind.svg"
+                },
+                {
+                    "Technology": "Node JS",
+                    "Icon": "/Portfolio/Skills/NodeJS.svg"
+                },
+                {
+                    "Technology": "Express",
+                    "Icon": "/Portfolio/Skills/Express.svg"
+                },
+                {
+                    "Technology": "PostgreSQL",
+                    "Icon": "/Portfolio/Skills/PgSQL.svg"
+                },
+                {
+                    "Technology": "HTML",
+                    "Icon": "/Portfolio/Skills/Html.svg"
+                },
+                {
+                    "Technology": "CSS",
+                    "Icon": "/Portfolio/Skills/Css.svg"
+                }
+            ],
+            "Features": [
+                "Interactive UI: dynamic and animated interface built with React, GSAP, and TailwindCSS.",
+                "Custom hooks: reusable logic for handling state, navigation, form control, and UI behavior.",
+                "Global state management: Context API combined with hooks like useReducer, useEffect, and useLocation.",
+                "Secure authentication: JWT-based login system with password hashing using bcrypt.",
+                "Data validation: robust server-side validation using Express Validator.",
+                "Email services: automated email handling and notifications using Nodemailer.",
+                "RESTful API: endpoints built with Express for full CRUD operations connected to a PostgreSQL database."
+            ]
+        },
+
+        {
             "id": "Cocktail-Page",
             "Image": "/Portfolio/Projects/Cocktail-page.jpg",
             "Title": "Cocktail Page",

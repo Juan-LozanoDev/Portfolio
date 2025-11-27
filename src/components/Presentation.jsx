@@ -1,5 +1,5 @@
 import "../styles/Presentation.css";
-import Photo1 from "../assets/Photos/Photo1.jpg";
+import Photo1 from "/Images/Photos/Photo1.jpg";
 
 export default function Presentation() {
   return (

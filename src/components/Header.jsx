@@ -1,5 +1,5 @@
 import "../styles/Header.css";
-import Logo from "../assets/Photos/JPL_Logo.png";
+import Logo from "/Images/Photos/JPL_Logo.png";
 import { useState } from "react";
 import useSelection from "../hooks/useSelection";
 

@@ -1,8 +1,8 @@
 import { Link, useParams, useNavigate, useLocation } from "react-router-dom";
 import { useGlobalContext } from "../services/Context";
 import { useEffect, useLayoutEffect, useState } from "react";
-import ShareIcon from "../../public/Icons/Share-icon.svg";
-import GitHubIcon from "../../public/Social/github.png";
+import ShareIcon from "/Icons/Share-icon.svg";
+import GitHubIcon from "/Social/github.png";
 import "../styles/Project.css";
 
 function Project() {
@@ -14,8 +14,8 @@ function Project() {
     const { pathname } = useLocation();
 
     useLayoutEffect(() => {
-        window.scrollTo(0, 0)
-    }, [pathname])
+        window.scrollTo(0, 0);
+    }, [pathname]);
 
     const foundProject = (projects) => {
         const project = projects.find((project) => {
@@ -38,7 +38,7 @@ function Project() {
         setTimeout(() => {
             const section = document.getElementById("Projects");
             section.scrollIntoView({ behavior: "smooth" });
-        }, 100);
+        }, 1500);
     };
 
     return (
@@ -60,9 +60,11 @@ function Project() {
                         <a href={Url} className="project-live-demo" target="_blank">
                             Live Demo <img src={ShareIcon} alt="->" className="share-icon" />
                         </a>
-                        <a href={Github} className="project-code" target="_blank">
-                            GitHub <img src={GitHubIcon} alt="GitIcon" />
-                        </a>
+                        {Github && (
+                            <a href={Github} className="project-code" target="_blank">
+                                GitHub <img src={GitHubIcon} alt="GitIcon" />
+                            </a>
+                        )}
                     </div>
                     <div className="technologies">
                         <h2>
@@ -96,7 +98,9 @@ function Project() {
                 </div>
                 <div className="project-features">
                     <div className="project-view">
-                        <a href={Url} target="_blank"><img src={Image} alt={Title} /></a>  
+                        <a href={Url} target="_blank">
+                            <img src={Image} alt={Title} />
+                        </a>
                     </div>
                     <div className="project-key-features">
                         <h3>
